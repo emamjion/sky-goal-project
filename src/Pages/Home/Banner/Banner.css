@@ -1,0 +1,68 @@
+.banner-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 15px 0;
+    background: rgba(248, 241, 211, 0.25);
+    padding: 30px 120px;
+
+}
+.banner-container .text-container {
+    width: 50%;
+}
+.text-container h1{
+    width: 400px;
+    color: #1F2027;
+    font-size: 70px;
+    line-height: 1.2;
+    font-weight: 800;
+}
+.text-container h1 span{
+    font-weight: 600;
+}
+.banner-container .text-container p{
+    margin: 30px 0;
+    color: #505C59;
+    font-size: 15px;
+    line-height: 1.4;
+}
+.banner-container .text-container .sign-btn{
+    padding: 16px 50px;
+    outline: none;
+    border: none;
+    background-color: #F27A44;
+    color: #fff;
+    border-radius: 30px;
+}
+.banner-container .image-container{
+    width: 500px;
+}
+.banner-container .image-container img{
+    width: 100%;
+}
+
+
+@media screen and (max-width: 600px) {
+    .banner-container{
+        flex-direction: column;
+        align-items: start;
+        width: 100%;
+    }
+    .banner-container .text-container {
+        width: 100%;
+        text-align: center;
+    }
+    .text-container h1{
+        width: 100%;
+        color: #1F2027;
+        font-size: 60px;
+        line-height: 1.2;
+        font-weight: 800;
+    }
+    .banner-container .image-container{
+        width: 100%;
+    }
+    .banner-container .image-container img{
+        width: 100%;
+    }
+}

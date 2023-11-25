@@ -1,0 +1,67 @@
+.advanture-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 120px;
+    gap: 120px;
+}
+.advanture-box{
+    width: 310px;
+    padding: 25px;
+    display: flex;
+    align-items: center;
+    margin: 40px 0;
+    gap: 10px;
+    box-shadow: 0px 0px 15px 0px #ddd;;
+    background-color: #fff;
+    border-radius: 8px;
+}
+.advanture-box img{
+    width: 80px;
+    height: 80px;
+}
+.advanture-box .advanture-box-text h3{
+    font-size: 16px;
+}
+.advanture-box .advanture-box-text p{
+    font-size: 15px;
+    margin-top: 3px;
+}
+.advanture-rightside h2{
+    font-size: 40px;
+    font-weight: 600;
+}
+.advanture-rightside h3{
+    font-size: 30px;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+.advanture-rightside h4{
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+.advanture-rightside ul li{
+    margin: 5px 20px;
+    font-size: 15px;
+}
+.advanture-rightside .explore-btn{
+    padding: 16px 32px;
+    outline: none;
+    border: none;
+    background-color: #F27A44;
+    color: #fff;
+    border-radius: 30px;
+    margin: 60px 0;
+}
+
+@media screen and (max-width: 600px) {
+    .advanture-container{
+        flex-direction: column;
+        gap: 50px;
+        width: 100%;
+    }
+    .advanture-box{
+        width: 100%;
+    }
+}
