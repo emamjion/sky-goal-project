@@ -1,0 +1,55 @@
+.book-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 120px;
+}
+.book-container .book-leftside{
+    width: 500px;
+}
+.book-container .book-leftside img{
+    width: 100%;
+}
+.book-rightside{
+    width: 360px;
+    padding: 30px;
+    box-shadow: 0px 0px 15px 0px #ddd;
+    background-color: #fff;
+    border-radius: 8px;
+}
+.book-rightside h3{
+    font-size: 28px;
+    font-weight: 700;
+    margin-bottom: 12px;
+}
+.book-rightside p{
+    font-size: 15px;
+    margin-bottom: 30px;
+}
+form .input-box label{
+    display: block;
+}
+form .input-box #city{
+    width: 100%;
+    padding: 8px;
+    box-shadow: 0px 0px 15px 0px #ddd;
+    outline: none;
+    border: none;
+}
+form .inputbox-2{
+    display: flex;
+    align-items: center;
+    margin: 18px 0;
+    gap: 10px;
+}
+form .inputbox-2 div label{
+    font-size: 12px;
+    font-weight: 700;
+}
+form .inputbox-2 div input{
+    padding: 8px 3px;
+    box-shadow: 0px 0px 15px 0px #ddd;
+    outline: none;
+    border: none;
+    margin-top: 5px;
+}

@@ -1,0 +1,56 @@
+.discount-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 160px;
+}
+.discount-leftside h2{
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+.discount-leftside h3{
+    font-size: 40px;
+    font-weight: 700;
+}
+.discount-leftside h4{
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 40px;
+}
+.discount-leftside ul li{
+    margin: 6px 20px;
+    font-size: 15px;
+}
+.discount-leftside .explore-btn{
+    padding: 16px 32px;
+    outline: none;
+    border: none;
+    background-color: #F27A44;
+    color: #fff;
+    border-radius: 30px;
+    margin: 60px 0;
+}
+.discount-container .discount-img-div{
+    width: 500px;
+}
+.discount-container .discount-img-div img{
+    width: 100%;
+}
+
+
+
+@media screen and (max-width: 600px) {
+    .discount-container{
+        flex-direction: column;
+        width: 100%;
+        gap: 120px;
+        margin: 120px;
+    }
+    .discount-leftside{
+        width: 100%;
+    }
+    .discount-container .discount-img-div{
+        width: 100%;
+    }
+}
